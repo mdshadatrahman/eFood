@@ -1,0 +1,12 @@
+Step-1 --> First you need to create a login system where creadentials field are phone:01600223852,password:123456,design login UI as your want.(token field name : plainTextToken)
+Step-2 --> The design for the home screen is attached please check and try to design as similar as you can.
+Step-3 --> call the catagories,setmenu & popular-item list from the api and display according to the design,you can use dammy images .
+
+API's:
+Login : http://khelaahobe.com/api/flutter/login
+catagies:http://khelaahobe.com/api/auth/flutter/category
+setmenulist : http://khelaahobe.com/api/auth/set/menu
+
+NB: In message field the required field is given.You have to use that field for api calling.
+**if you hit wrong api endpoints & field this will through an error.
+         

@@ -1,0 +1,9 @@
+you need to develop a simple app. Please follow the following instructions for developing the test app.
+
+- You need to develop a signup screen and home screen with APIs integration.
+- The APIs are attached below.
+- The design for the home screen is attached below, please check and try to design as similar as you can.
+- Design the signup screen as you want but check the signup API for how many input fields you need.
+- Must use a state management package like- Provider, GetX, setState
+- Upload the project on your public git repository and send us the link with a build apk file.
+- That's all
