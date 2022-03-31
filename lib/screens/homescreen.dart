@@ -25,26 +25,29 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: Container(
           color: Colors.white,
-          child: Column(
-            children: [
-              SizedBox(height: deviceHeight * 0.05),
-              //Top red bar
-              TopRedBar(deviceHeight: deviceHeight),
-              SizedBox(height: deviceHeight * 0.01),
-              //Logo, Name, Notification Icons
-              LogoNameNotification(deviceHeight: deviceHeight),
-              //Search bar
-              SizedBox(height: deviceHeight * 0.01),
-              SearchBar(deviceHeight: deviceHeight, deviceWidth: deviceWidth),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
+            child: Column(
+              children: [
+                SizedBox(height: deviceHeight * 0.05),
+                //Top red bar
+                TopRedBar(deviceHeight: deviceHeight),
+                SizedBox(height: deviceHeight * 0.01),
+                //Logo, Name, Notification Icons
+                LogoNameNotification(deviceHeight: deviceHeight),
+                //Search bar
+                SizedBox(height: deviceHeight * 0.01),
+                SearchBar(deviceHeight: deviceHeight, deviceWidth: deviceWidth),
 
-              //All Categories
-              SizedBox(height: deviceHeight * 0.05),
-              AllCategoriesWidget(deviceWidth: deviceWidth),
+                //All Categories
+                SizedBox(height: deviceHeight * 0.05),
+                AllCategoriesWidget(deviceWidth: deviceWidth),
 
-              //Set Menu
-              SizedBox(height: deviceHeight * 0.05),
-              SetMenu(deviceWidth: deviceWidth),
-            ],
+                //Set Menu
+                SizedBox(height: deviceHeight * 0.05),
+                SetMenu(deviceWidth: deviceWidth),
+              ],
+            ),
           ),
         ),
       ),
